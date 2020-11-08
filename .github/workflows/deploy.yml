@@ -12,8 +12,8 @@ jobs:
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@master
         with:
-          find: "hello"
-          replace: "world"
+          find: <!--[\s\S]*?-->
+          replace: ""
   Build:
     runs-on: ubuntu-latest
     steps:
