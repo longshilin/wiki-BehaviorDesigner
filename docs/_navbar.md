@@ -1,1 +1,2 @@
 - [BEHAVIOR DESIGNER](https://opsive.com/assets/behavior-designer/)
+- [BehaviorDesigner Documentation](https://longshilin.com/files/BehaviorDesignerDocumentation.pdf)
