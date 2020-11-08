@@ -1,6 +1,6 @@
 # Behavior Designer
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T_of4_jRoJA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="600" src="https://www.youtube.com/embed/T_of4_jRoJA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > Behavior trees are used by AAA studios to create a lifelike AI. With Behavior Designer, you can bring the power of behaviour trees to Unity!
 >  
