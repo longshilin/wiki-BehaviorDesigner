@@ -1,2 +1,1 @@
-- [Getting Started](quick-start.md)
 - [BEHAVIOR DESIGNER](https://opsive.com/assets/behavior-designer/)
