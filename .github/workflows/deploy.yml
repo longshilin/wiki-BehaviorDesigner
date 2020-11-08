@@ -5,7 +5,16 @@ on:
     branches: 
       - master
 jobs:
-  test:
+  Replace:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@master
+        with:
+          find: "hello"
+          replace: "world"
+  Build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
