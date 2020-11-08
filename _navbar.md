@@ -1,2 +1,2 @@
 - [Getting Started](quick-start.md)
-- [wiki-template Project](https://github.com/sindresorhus/wiki-template)
+- [wiki-BehaviorDesigner Project](https://github.com/sindresorhus/wiki-BehaviorDesigner)
