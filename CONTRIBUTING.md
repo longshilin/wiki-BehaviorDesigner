@@ -5,9 +5,9 @@
 Welcome! And thank you for your interest in contributing to the template. There are many ways in which you can contribute, beyond writing code. Here's a high-level overview of how you can get involved:
 
 - Ask questions and problems on [Stack Overflow]()
-- [Submit bugs and feature requests](https://github.com/alertbox/gh-quickstart/issues), and help us verify as they are checked in
+- [Submit bugs and feature requests](https://github.com/longshilin/wiki-BehaviorDesigner/issues), and help us verify as they are checked in
 - Upvote [popular feature requests]()
-- Review [source code changes](https://github.com/alertbox/gh-quickstart/pulls)
+- Review [source code changes](https://github.com/longshilin/wiki-BehaviorDesigner/pulls)
 - Review the [documentation](docs) and make pull requests for anything from typos to new content
 
 ## Contributing to Source Code
@@ -44,7 +44,7 @@ Occasionally you would want to merge changes the upstream repository (the offici
 #!/bin/bash
 cd gh-quickstart
 git checkout master
-git pull https://github.com/alertbox/gh-quickstart master
+git pull https://github.com/longshilin/wiki-BehaviorDesigner master
 ```
 
 #### Build and run from the source

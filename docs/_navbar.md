@@ -1,2 +1,2 @@
 - [Getting Started](quick-start.md)
-- [wiki-BehaviorDesigner Project](https://github.com/sindresorhus/wiki-BehaviorDesigner)
+- [BEHAVIOR DESIGNER](https://opsive.com/assets/behavior-designer/)
