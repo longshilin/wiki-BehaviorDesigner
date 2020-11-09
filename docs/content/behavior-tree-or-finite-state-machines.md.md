@@ -5,13 +5,12 @@
 
 首先让我们看一下第一个优点：灵活性。使用FSM，如何同时运行两个不同的状态？唯一的方法是创建两个单独的FSM。使用行为树，您所需要做的就是添加并行任务，然后完成–所有子任务将并行运行。使用Behavior Designer，这些子任务可以是PlayMaker FSM，而这些FSM将并行运行。
 
-灵活性的另一个例子是任务卫士任务。
-在此示例中，您有两个执行声音效果的不同任务。
+灵活性的另一个例子是任务守卫任务。在此示例中，您有两个执行声音效果的不同任务。
 这两个不同的任务位于行为树的两个不同分支中，因此它们彼此之间不了解并且可能同时播放声音效果。
 您不希望这种情况发生，因为听起来不太好。
 在这种情况下，您可以添加一个信号量任务（在Behavior Designer中称为Task Guard），并且一次只能播放一种声音效果。
 当第一个声音播放完毕时，第二个声音将开始播放。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDk5ODQyLC00MzY4MzY1MywtMTYxNj
-k3MTU4OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEwMTYyMzc2MjMsLTQzNjgzNjUzLC0xNj
+E2OTcxNTg5LDczMDk5ODExNl19
 -->
