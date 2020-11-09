@@ -7,8 +7,8 @@
 - Overview 
 - [What is a Behavior Tree?](content/what-is-a-behavior-tree.md) 
 - [Behavior Trees or Finite State Machines](content/behavior-tree-or-finite-state-machines.md) 
-- [Installation](cotent/installation.md) 
-- [Behavior Tree Component](cotent/behavior-tree-component.md) 
+- [Installation](content/installation.md) 
+- [Behavior Tree Component](content/behavior-tree-component.md) 
 - Create a Behavior Tree from Script 
 - Behavior Manager 
 - Tasks 
