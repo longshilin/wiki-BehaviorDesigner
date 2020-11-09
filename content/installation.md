@@ -6,13 +6,13 @@
 当您尝试运行您的UWP应用时，您可能会收到一条错误消息，指示找不到任务。为了解决此问题，TaskUtility.GetTypesWithinAssembly（在TaskUtility.cs中）的以下行应更改为：
 
 ```csharp
-    loadedAssemblies = GetStorageFileAssemblies(typeName).Result;
+loadedAssemblies = GetStorageFileAssemblies(typeName).Result;
 ```
 
 到：
 ```csharp
-    loadedAssemblies = new List(); 
-    loadingAssemblies.Add("Assembly-CSharp");
+loadedAssemblies = new List(); 
+loadingAssemblies.Add("Assembly-CSharp");
 ```
 这将允许在应用程序中找到Unity的C＃程序集。
 
