@@ -1,4 +1,6 @@
-# 行为树或有限状态机
+﻿# 行为树或有限状态机
+行为树是一个运用在很多游戏中很流行的AI技术。Halo 2是第一个使用行为树的主流游戏，在发布了有关它们在Halo 2中的用法的 [详细说明]
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzA5NjM5ODQsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTQ2MDY5OTI5OCw3MzA5OTgxMTZdfQ==
 -->
