@@ -3,10 +3,18 @@
 
 为了为通用Windows平台（UWP）编译行为设计器，必须使用运行时源代码而不是已编译的DLL。无需更改编译设置– Behavior Designer可以在启用.Net Core的情况下进行编译。
 
-当您尝试运行您的UWP应用时，您可能会收到一条错误消息，指示找不到任务。为了解决此问题，TaskUtility.GetTypesWithinAssembly（在TaskUtility.cs中）的以下行应更改为：loadedAssemblies = GetStorageFileAssemblies（typeName）.Result;
-到：loadedAssemblies = new List（）; 
-loadingAssemblies.Add（“ Assembly-CSharp”）;
+当您尝试运行您的UWP应用时，您可能会收到一条错误消息，指示找不到任务。为了解决此问题，TaskUtility.GetTypesWithinAssembly（在TaskUtility.cs中）的以下行应更改为：
+```csharp
+    loadedAssemblies = GetStorageFileAssemblies（typeName）.Result;
+  ```
+
+到：
+```csharp
+    loadedAssemblies = new List(); 
+    loadingAssemblies.Add("Assembly-CSharp");
+```
 这将允许在应用程序中找到Unity的C＃程序集。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjA3NDcwMywxMTEzNjcyMDFdfQ==
+eyJoaXN0b3J5IjpbLTExNzY4NjM5OTYsMTExMzY3MjAxXX0=
 -->
