@@ -11,11 +11,11 @@
 
 另外，条件任务需要一种方法来告诉其父任务条件是否为真，以便父任务可以决定是否应继续运行其子级。使用任务状态可以解决这两个问题。任务处于三种不同状态之一：运行，成功或失败。在第一个示例中，只要播放动画，拍摄动画任务的任务状态就会一直运行。确定敌人是否在视线范围内的条件任务将在一帧之内返回成功或失败。
 
-行为设计器采用了所有这些概念，并将其打包在一个易于使用的界面中，并使用类似于Unity的MonoBehaviour API的API。行为设计器在标准安装中包括许多复合和装饰类。动作和条件任务是特定于游戏的，因此没有包括很多任务，但示例项目中有许多示例。可以通过从一种任务类型扩展来创建新任务。另外，已经创建了许多视频，以使学习Behavior Designer变得尽可能容易。
+行为设计器采用了所有这些概念，并将其打包在一个易于使用的界面中，并使用类似于Unity的MonoBehaviour API的API。行为设计器在标准安装中包括许多复合和装饰类。动作和条件任务是特定于游戏的，因此没有包括很多任务，但[示例项目](https://opsive.com/integrations/?pid=803)中有许多示例。可以通过从一种任务类型扩展来创建新任务。另外，已经创建了许多视频，以使学习Behavior Designer变得尽可能容易。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzQzMDQ0NiwzMzQwMzM3NzQsLTE4Nj
-M5NzcxNzgsLTEwODM3OTI3OTAsLTIwMjk4ODIxMTQsLTc3Nzg4
-NTg3NV19
+eyJoaXN0b3J5IjpbLTI5OTkxNjU4LC0zNjc0MzA0NDYsMzM0MD
+MzNzc0LC0xODYzOTc3MTc4LC0xMDgzNzkyNzkwLC0yMDI5ODgy
+MTE0LC03Nzc4ODU4NzVdfQ==
 -->
