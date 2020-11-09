@@ -14,7 +14,7 @@ jobs:
         with:
           find: <!--[\s\S]*?-->
           replace: ""
-          include: "docs/*.md"
+          include: "*.md"
   Build:
     runs-on: ubuntu-latest
     steps:
