@@ -1,4 +1,2 @@
+# 安装
 
-
-
-> Written with [StackEdit](https://stackedit.io/).
