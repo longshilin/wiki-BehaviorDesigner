@@ -6,7 +6,7 @@
 - Behavior Designer 
 - Overview 
 - [What is a Behavior Tree?](content/what-is-a-behavior-tree.md) 
-- Behavior Trees or Finite State Machines 
+- [Behavior Trees or Finite State Machines](content/behavior-tree-or-finite-state-machines.md) 
 - Installation 
 - Behavior Tree Component 
 - Create a Behavior Tree from Script 
@@ -39,5 +39,5 @@
 - Videos 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Nzg4NTg3NV19
+eyJoaXN0b3J5IjpbMTQ4ODc0OTY1LC03Nzc4ODU4NzVdfQ==
 -->
