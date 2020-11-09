@@ -8,7 +8,6 @@
 ```csharp
 loadedAssemblies = GetStorageFileAssemblies(typeName).Result;
 ```
-
 到：
 ```csharp
 loadedAssemblies = new List(); 
@@ -17,5 +16,5 @@ loadingAssemblies.Add("Assembly-CSharp");
 这将允许在应用程序中找到Unity的C＃程序集。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg1MTc3MjksLTMzNjg0NDY0MV19
+eyJoaXN0b3J5IjpbLTQ4OTQyNDcxOSwtMzM2ODQ0NjQxXX0=
 -->
