@@ -5,5 +5,5 @@
 ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/longshilin/wiki-BehaviorDesigner?include_prereleases)
 ![GitHub](https://img.shields.io/github/license/longshilin/wiki-BehaviorDesigner)
 
-//Todo 翻译整理[官方文档](https://longshilin.com/files/BehaviorDesignerDocumentation.pdf)
+//TODO 翻译整理[官方文档](https://longshilin.com/files/BehaviorDesignerDocumentation.pdf)
 
