@@ -8,7 +8,6 @@
 ```csharp
 loadedAssemblies = GetStorageFileAssemblies(typeName).Result;
 ```
-
 到：
 ```csharp
 loadedAssemblies = new List(); 
